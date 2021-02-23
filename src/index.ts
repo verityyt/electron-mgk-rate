@@ -14,7 +14,6 @@ function createWindow() {
     window.loadFile("D:\\Development\\Workspace\\TypeScript\\spotify-mgk-rate\\src\\frontend\\index.html")
 
     window.webContents.on('will-navigate', function (event, newUrl) {
-        console.log(newUrl);
         window.loadURL(newUrl)
     });
 

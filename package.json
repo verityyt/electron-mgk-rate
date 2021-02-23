@@ -9,5 +9,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/electron": "^1.6.10",
+    "electron": "^11.3.0"
+  }
 }

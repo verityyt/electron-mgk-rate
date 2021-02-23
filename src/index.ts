@@ -16,10 +16,6 @@ function createWindow() {
     window.setMenuBarVisibility(false)
     window.loadFile("D:\\Development\\Workspace\\TypeScript\\spotify-mgk-rate\\src\\frontend\\index.html")
 
-    window.webContents.on('will-navigate', function (event, newUrl) {
-        window.loadURL(newUrl)
-    });
-
 }
 
 app.whenReady().then(createWindow)
